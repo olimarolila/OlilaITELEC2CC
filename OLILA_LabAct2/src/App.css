@@ -1,0 +1,134 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  color: white;
+}
+
+/* Navbar Container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 12px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Left Logo Section */
+.navbar .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-container img {
+  height: 24px;
+}
+
+/* Center Navigation Links */
+.navbar .nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #ff4655; /* Valorant red */
+}
+
+/* Dropdown Menus */
+.dropdown {
+  position: relative;
+}
+
+.dropdown button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.dropdown button:hover {
+  color: #ff4655;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(20, 20, 20, 0.95);
+  border-radius: 5px;
+  padding: 8px 0;
+  width: 160px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 8px 16px;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #ff4655;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Right Icons and Buttons */
+.navbar .right-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: #1a1a1a;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.icon-btn:hover {
+  background: #333;
+}
+
+/* Play Now Button */
+.play-button {
+  background: #ff4655;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  border: none;
+}
+
+.play-button:hover {
+  background: #d73a49;
+}

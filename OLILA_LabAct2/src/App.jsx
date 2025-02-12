@@ -1,21 +1,13 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import NewsSection from "./components/NewsSection";
-import Footer from "./components/Footer";
+import "./App.css";
 
-const App = () => {
+function App() {
   return (
-    <Router>
+    <div>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Hero />} />
-        <Route path="/news" element={<NewsSection />} />
-      </Routes>
-      <Footer />
-    </Router>
+      <main className="text-white p-10">Main Content Here</main>
+    </div>
   );
-};
+}
 
 export default App;
