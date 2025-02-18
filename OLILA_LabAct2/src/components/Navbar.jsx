@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaSearch, FaGlobe } from "react-icons/fa";
-
+import "../App.css";
 
 const Navbar = () => {
   const [isGameInfoOpen, setGameInfoOpen] = useState(false);
