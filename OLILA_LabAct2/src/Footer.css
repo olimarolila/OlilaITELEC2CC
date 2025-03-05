@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Mark W05 Medium";
+    src: url("/fonts/MarkW05-Medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .footer {
+    background-color: #111111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-top {
+    background-color: #292929;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .download-btn {
+    color: white;
+    background-color: #292929;
+    padding: 12px 24px;
+    font-family: "MarkW05-Medium", sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .footer-social-icons, .footer-riot-logo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    }
+
+.social-icons-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    }
+
+  .footer-social-icons, .footer-riot-logo, .footer-trademark-text, .footer-links, .footer-esrb {
+    margin-bottom: 20px;
+  }
+  
+  .footer-social-icons .social-icons-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .footer-trademark-text {
+    text-align: center;
+  }
+  
+  .footer-links {
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .footer-esrb {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .esrb-rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .esrb-rating img {
+    width: 60px;
+    height: 80px;
+  }
+  
+  .footer-link {
+    color: white;
+    font-family: "MarkW05-Medium", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  

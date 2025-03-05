@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "DIN Next W1G";
+    src: url("fonts/dinnextw1g.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hero {
+    position: relative;
+    width: 100vw;
+    height: calc(100vw / 2.67);
+    overflow: hidden;
+}
+
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-width: 800px;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+  .hero-subtitle {
+    font-family: "DIN Next W1G", sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-title {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+  .play-button {
+    display: inline-block;
+    font-family: "DIN Next W1G", sans-serif;
+    font-size: 18px;
+    background: #FF4655;
+    padding: 18px 36px;
+    color: white;
+    border: none;
+    position: relative;
+    outline: 1px solid white;
+    outline-offset: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .play-button:hover {
+    background: white;
+    color: black;
+  }

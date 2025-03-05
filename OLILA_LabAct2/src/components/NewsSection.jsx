@@ -1,22 +1,31 @@
 import React from "react";
-import "./NewsSection.scss";
-import newsData from "../data.js"; 
+import newsData from "../newsData";
+import "../NewsSection.css";
 
-const NewsSection = () => {
-  return (
-    <section className="news">
-      <h2>Latest News</h2>
-      <div className="news-grid">
-        {newsData.map((item) => (
-          <div key={item.id} className="news-card">
-            <img src={item.image} alt={item.title} />
-            <h3>{item.title}</h3>
-            <p>{item.description}</p>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
+const LatestNews = () => {
+    return (
+        <section className="latest-news">
+            <div className="news-header">
+                <h2>THE LATEST</h2>
+                <a href="#" className="news-link">
+                  GO TO NEWS PAGE <span>↗</span>
+                </a>
+            </div>
+
+            <div className="news-container">
+                {newsData.map((news) => (
+                    <div key={news.id} className="news-card">
+                        <img src={news.image} alt={news.title} className="news-image" />
+                        <div className="news-content">
+                            <p className="news-category">{news.category} | {news.date}</p>
+                            <h3 className="news-title">{news.title}</h3>
+                            <p className="news-description">{news.description}</p>
+                          </div>
+                    </div>
+                ))}
+            </div>
+        </section>
+    );
 };
 
-export default NewsSection;
+export default LatestNews;

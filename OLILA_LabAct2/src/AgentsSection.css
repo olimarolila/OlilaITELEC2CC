@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Tungsten";
+    src: url("/fonts/Tungsten.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "DIN Next W1G";
+    src: url("/fonts/DINNextW1G.ttf") format("truetype");
+  }
+  
+  .agent-section {
+    background: url("/valobg2.png") no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    width: 100wv;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    padding: 0 10%;
+  }
+  
+  .agent-content {
+    max-width: 600px;
+    text-align: left;
+    padding-left: 780px;
+  }
+  
+  .agent-title {
+    font-family: "Tungsten", sans-serif;
+    font-size: 110px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: #ece8e1;
+  }
+  
+  .agent-subtitle {
+    font-family: "DIN Next W1G", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  
+  .agent-description {
+    font-family: "DIN Next W1G", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  
+  .agent-btn {
+    font-family: "DIN Next W1G", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #141e28;
+    color: white;
+    padding: 24px 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0px;
+  }
+  
+  .agent-btn:hover {
+    background-color: #ece8e1;
+    color: #0f1923;
+  }
+  

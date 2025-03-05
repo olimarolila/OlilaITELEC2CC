@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Tungsten";
+    src: url("/fonts/Tungsten.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "DIN Next W1G";
+    src: url("/fonts/DINNextW1G.ttf") format("truetype");
+  }
+  
+  .valorant-section {
+    background: url("/valobg1.png") no-repeat center center;
+    background-size: cover;
+    height: 640px;
+    width: 100wv;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 200px;
+    color: #0f1923;
+  }
+  
+  .valorant-content {
+    max-width: 700px;
+  }
+  
+  .valorant-title {
+    font-family: "Tungsten", sans-serif;
+    font-size: 110px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .valorant-subtitle {
+    font-family: "DIN Next W1G", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  
+  .valorant-description {
+    font-family: "DIN Next W1G", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .valorant-btn {
+    font-family: "DIN Next W1G", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #ff4655;
+    color: white;
+    padding: 24px 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0px;
+  }
+  
+  .valorant-btn:hover {
+    background-color: #0f1923;
+  }
+  
+  .valorant-video {
+    padding-left: 70px;
+    max-width: 700px;
+    height: 800px;
+  }
+  
+  .valorant-video video {
+    width: 100%;
+    height: 800px;
+  }  

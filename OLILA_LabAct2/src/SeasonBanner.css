@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Tungsten";
+    src: url("/fonts/Tungsten.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "DIN Next W1G";
+    src: url("/fonts/DINNextW1G.ttf") format("truetype");
+  }
+  
+  .season-banner {
+    background: url("/season bg.png") no-repeat center center;
+    background-size: cover;
+    height: 640px;
+    width: 100wv;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+    color: white;
+  }
+  
+  .season-content {
+    max-width: 1000px;
+    padding: 0px;
+    padding-left: 100px;
+  }
+  
+  .season-title {
+    font-family: "Tungsten", sans-serif;
+    font-size: 110px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .season-subtitle {
+    font-family: "DIN Next W1G", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+  
+  .watch-now-btn {
+    font-family: "DIN Next W1G", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #000c1e;
+    color: white;
+    padding: 24px 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0px;
+  }
+  
+  .watch-now-btn:hover {
+    background-color: #ece8e1;
+    color: #0f1923;
+  }
+  
