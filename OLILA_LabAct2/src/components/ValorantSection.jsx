@@ -1,5 +1,5 @@
 import React from "react";
-import "../ValorantSection.css"; // Import CSS
+import "../ValorantSection.css";
 
 const ValorantSection = () => {
   return (

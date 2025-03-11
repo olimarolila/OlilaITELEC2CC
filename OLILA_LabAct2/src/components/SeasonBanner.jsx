@@ -1,5 +1,5 @@
 import React from "react";
-import "../SeasonBanner.css"; // Import CSS
+import "../SeasonBanner.css";
 
 const SeasonBanner = () => {
   return (
